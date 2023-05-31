@@ -50,7 +50,7 @@ export default function Web() {
               <div>
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
                   La inquietud y vocación por desarrollar un lenguaje propio y original lo llevaron a liderar proyectos
-                  como Kai d' Raíz y Lotus.
+                  como Kai d` Raíz y Lotus.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
