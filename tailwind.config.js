@@ -2,6 +2,7 @@
 const { pick, omit } = require("lodash")
 const colors = require("tailwindcss/colors")
 const defaultTheme = require("tailwindcss/defaultTheme")
+const { blackA, mauve, violet, indigo, purple } = require("@radix-ui/colors")
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -29,9 +30,15 @@ module.exports = {
           800: "#1e40af",
           900: "#1e3a8a",
         },
+        ...blackA,
+        ...mauve,
+        ...violet,
+        ...purple,
+        ...indigo,
       },
       fontFamily: {
         body: [
+          "Open Sans",
           "Inter",
           "ui-sans-serif",
           "system-ui",
@@ -65,6 +72,7 @@ module.exports = {
           "Segoe UI Symbol",
           "Noto Color Emoji",
         ],
+        times: ["Georgia", "Times New Roman", "ui-serif", "Cambria", "Times", "Times New Roman", "serif"],
       },
       borderWidth: {
         DEFAULT: "1px",
