@@ -26,9 +26,9 @@ export default function Web() {
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Egresado del conservatorio superior de música "Manuel de Falla" (profesorado de artes - especialidad
-                  saxofón) profundizó sus estudios sobre el lenguaje musical en el Curso de Lecto-escritura de Maria del
-                  Carmen Aguilar.
+                  Egresado del conservatorio superior de música &quot;Manuel de Falla&quot; (profesorado de artes -
+                  especialidad saxofón) profundizó sus estudios sobre el lenguaje musical en el Curso de Lecto-escritura
+                  de Maria del Carmen Aguilar.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">

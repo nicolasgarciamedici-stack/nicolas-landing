@@ -92,9 +92,7 @@ const Music = () => {
                     height="215"
                     src="https://www.youtube.com/embed/zJzc5EWWmmQ?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
                     title="Video 1"
-                    frameborder="0"
                     allow="autoplay; encrypted-media"
-                    allowfullscreen
                   ></iframe>
                 </div>
 
@@ -105,9 +103,7 @@ const Music = () => {
                     height="215"
                     src="https://www.youtube.com/embed/hpcmye7jq7E?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
                     title="Video 2"
-                    frameborder="0"
                     allow="autoplay; encrypted-media"
-                    allowfullscreen
                   ></iframe>
                 </div>
 
@@ -118,9 +114,7 @@ const Music = () => {
                     height="215"
                     src="https://www.youtube.com/embed/gmhFLAeIyVs?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
                     title="Video 3"
-                    frameborder="0"
                     allow="autoplay; encrypted-media"
-                    allowfullscreen
                   ></iframe>
                 </div>
               </div>

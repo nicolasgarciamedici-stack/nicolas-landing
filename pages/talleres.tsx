@@ -1,38 +1,26 @@
 import Image from "next/image"
 import Layout from "components/layout/Layout"
 
-const workshops = [
-  {
-    title: "Online Workshop",
-    description: "Join our online workshop and learn amazing skills from industry experts.",
-    image: "https://luciaboffo.com/wp-content/uploads/2021/11/Tomas-Fares-the-Sindicalistas-Templanza.jpeg",
-    link: "https://www.google.com",
-  },
-  {
-    title: "Online Workshop",
-    description: "Join our online workshop and learn amazing skills from industry experts.",
-    image: "https://luciaboffo.com/wp-content/uploads/2021/11/Tomas-Fares-the-Sindicalistas-Templanza.jpeg",
-    link: "https://www.google.com",
-  },
-  {
-    title: "Online Workshop",
-    description: "Join our online workshop and learn amazing skills from industry experts.",
-    image: "https://luciaboffo.com/wp-content/uploads/2021/11/Tomas-Fares-the-Sindicalistas-Templanza.jpeg",
-    link: "https://www.google.com",
-  },
-]
-
-const WorkshopSection = ({ workshop }) => {
-  return (
-    <div className="flex items-center justify-center py-8">
-      <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-lg">
-        <img src={workshop.image} alt={workshop.title} className="mb-4" />
-        <h2 className="text-2xl font-bold">{workshop.title}</h2>
-        <p className="mt-2">{workshop.description}</p>
-      </div>
-    </div>
-  )
-}
+// const workshops = [
+//   {
+//     title: "Online Workshop",
+//     description: "Join our online workshop and learn amazing skills from industry experts.",
+//     image: "https://luciaboffo.com/wp-content/uploads/2021/11/Tomas-Fares-the-Sindicalistas-Templanza.jpeg",
+//     link: "https://www.google.com",
+//   },
+//   {
+//     title: "Online Workshop",
+//     description: "Join our online workshop and learn amazing skills from industry experts.",
+//     image: "https://luciaboffo.com/wp-content/uploads/2021/11/Tomas-Fares-the-Sindicalistas-Templanza.jpeg",
+//     link: "https://www.google.com",
+//   },
+//   {
+//     title: "Online Workshop",
+//     description: "Join our online workshop and learn amazing skills from industry experts.",
+//     image: "https://luciaboffo.com/wp-content/uploads/2021/11/Tomas-Fares-the-Sindicalistas-Templanza.jpeg",
+//     link: "https://www.google.com",
+//   },
+// ]
 
 const Workshops = () => {
   return (
