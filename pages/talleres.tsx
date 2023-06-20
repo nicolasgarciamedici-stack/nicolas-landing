@@ -26,7 +26,12 @@ const Workshops = () => {
   return (
     <Layout>
       <section className="bg-gray-100 dark:bg-gray-900">
-        <Image src="/images/workshops-hero.jpeg" alt="Next.js Enterprise Boilerplate" width={1920} height={1080} />
+        <Image
+          src="/images/workshops/carousel-1.jpeg"
+          alt="Next.js Enterprise Boilerplate"
+          width={1920}
+          height={1080}
+        />
         <div className="mx-auto grid px-4 py-8 text-center lg:py-16">
           <div className="mx-auto">
             <h1 className="relative mb-10 font-times text-4xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-white md:text-5xl xl:text-5xl">

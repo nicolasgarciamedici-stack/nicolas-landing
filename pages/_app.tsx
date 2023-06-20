@@ -1,4 +1,5 @@
 import "../styles/tailwind.css"
+import "react-multi-carousel/lib/styles.css"
 
 import { AppProps } from "next/app"
 

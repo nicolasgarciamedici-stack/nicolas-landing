@@ -1,13 +1,117 @@
 import Image from "next/image"
 import { AiOutlineArrowDown } from "react-icons/ai"
-import { SlSocialSpotify } from "react-icons/sl"
+import { SlSocialInstagram, SlSocialSpotify } from "react-icons/sl"
+import Carousel from "react-multi-carousel"
+
 import Layout from "components/layout/Layout"
 
 const Music = () => {
   return (
     <Layout>
       <section className="bg-gray-100 dark:bg-gray-900">
-        <Image src="/images/music-hero.jpeg" alt="Next.js Enterprise Boilerplate" width={1920} height={1080} />
+        <Carousel
+          additionalTransfrom={0}
+          arrows
+          autoPlaySpeed={6000}
+          centerMode={false}
+          className="z-0 min-w-full"
+          containerClass="container"
+          dotListClass=""
+          focusOnSelect={false}
+          infinite
+          itemClass=""
+          keyBoardControl
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={false}
+          responsive={{
+            desktop: {
+              breakpoint: {
+                max: 3000,
+                min: 1024,
+              },
+              items: 1,
+            },
+            mobile: {
+              breakpoint: {
+                max: 464,
+                min: 0,
+              },
+              items: 1,
+            },
+            tablet: {
+              breakpoint: {
+                max: 1024,
+                min: 464,
+              },
+              items: 1,
+            },
+          }}
+          rewind={false}
+          rewindWithAnimation={false}
+          rtl={false}
+          shouldResetAutoplay
+          sliderClass=""
+          slidesToSlide={1}
+          swipeable
+          autoPlay
+        >
+          <Image
+            src="/images/music/carousel-1.jpeg"
+            alt="Next.js Enterprise Boilerplate"
+            width={1920}
+            height={1080}
+            layout="responsive"
+            objectFit="cover"
+            objectPosition="center"
+          />
+          <Image
+            src="/images/music/carousel-2.jpeg"
+            alt="Next.js Enterprise Boilerplate"
+            width={1920}
+            height={1080}
+            layout="responsive"
+            objectFit="cover"
+            objectPosition="center"
+          />
+          <Image
+            src="/images/music/carousel-3.jpeg"
+            alt="Next.js Enterprise Boilerplate"
+            width={1920}
+            height={1080}
+            layout="responsive"
+            objectFit="cover"
+            objectPosition="center"
+          />
+          <Image
+            src="/images/music/carousel-4.jpeg"
+            alt="Next.js Enterprise Boilerplate"
+            width={1920}
+            height={1080}
+            layout="responsive"
+            objectFit="cover"
+            objectPosition="center"
+          />
+          <Image
+            src="/images/music/carousel-5.jpeg"
+            alt="Next.js Enterprise Boilerplate"
+            width={1920}
+            height={1080}
+            layout="responsive"
+            objectFit="cover"
+            objectPosition="center"
+          />
+          <Image
+            src="/images/music/carousel-6.jpeg"
+            alt="Next.js Enterprise Boilerplate"
+            width={1920}
+            height={1080}
+            layout="responsive"
+            objectFit="cover"
+            objectPosition="center"
+          />
+        </Carousel>
+
         <div className="mx-auto grid w-full px-4 py-8 text-center lg:py-16">
           <h1 className="relative mb-10 font-times text-5xl font-bold text-gray-800">
             Música
@@ -32,6 +136,17 @@ const Music = () => {
               >
                 <div className="transform rounded-full bg-gray-200 p-2 transition-transform duration-300 group-hover:scale-110 group-hover:bg-green-500 dark:bg-gray-800">
                   <SlSocialSpotify className="h-6 w-6 text-gray-500 group-hover:text-white" />
+                </div>
+              </a>
+
+              <a
+                href="https://www.instagram.com/nicolasgarciamedici/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group"
+              >
+                <div className="transform rounded-full bg-gray-200 from-orange-500 via-pink-500 to-purple-800 p-2 transition-all duration-300 group-hover:scale-110 group-hover:bg-gradient-to-r dark:bg-gray-800">
+                  <SlSocialInstagram className="h-6 w-6 text-gray-500 group-hover:text-white" />
                 </div>
               </a>
             </div>
@@ -84,6 +199,9 @@ const Music = () => {
                 </a>
               </div>
 
+              <h2 className="mb-8 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
+                LUTOS
+              </h2>
               <div className="flex w-4/5 items-center justify-center space-x-4">
                 <div className="w-1/3 flex-none">
                   <iframe
@@ -118,6 +236,44 @@ const Music = () => {
                   ></iframe>
                 </div>
               </div>
+
+              <h2 className="mb-8 mt-20 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
+                Kai d&apos; Raiz
+              </h2>
+              <div className="flex w-4/5 items-center justify-center space-x-4">
+                <div className="w-1/3 flex-none">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="560"
+                    height="215"
+                    src="https://www.youtube.com/embed/seTj2582g1s?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 1"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+
+                <div className="w-1/3 flex-none">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="560"
+                    height="215"
+                    src="https://www.youtube.com/embed/Ylaz19Rcz_s?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 2"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+
+                <div className="w-1/3 flex-none">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="600"
+                    height="215"
+                    src="https://www.youtube.com/embed/FXEwdjTAMmQ?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 3"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -125,9 +281,9 @@ const Music = () => {
             <h2 className="mb-8 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
               Discografía
             </h2>
-            {/* social media icons */}
+
             <div className="flex justify-center">
-              <div className="grid max-w-6xl grid-cols-1 gap-x-8 gap-y-24">
+              <div className="grid max-w-6xl grid-cols-2 gap-x-8 gap-y-24">
                 {Array.from({ length: 1 }).map((_, i) => (
                   <div className="text-center" key={i}>
                     <a
@@ -147,6 +303,24 @@ const Music = () => {
                     </a>
                   </div>
                 ))}
+
+                <div className="text-center">
+                  <a
+                    href="https://open.spotify.com/artist/4yH5AmComSWr7GZ3aAurgQ?si=kmKV5THATjusYmp-BAVicw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="https://i.scdn.co/image/ab6761610000517474c52346520cc8ec74a3dfbb"
+                      loader={({ src }) => src}
+                      alt="Disco 1"
+                      className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
+                      width={500}
+                      height={500}
+                    />
+                    <p className="font-bold text-gray-900 dark:text-white">Kai d&apos; Raiz</p>
+                  </a>
+                </div>
               </div>
             </div>
           </section>
