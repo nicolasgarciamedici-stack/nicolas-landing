@@ -116,7 +116,7 @@ const Workshops = () => {
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-1">
                   <div className=" max-w-md border-b border-black bg-white p-8 shadow-md">
                     <Image
-                      src="/images/taller-1.png"
+                      src="/images/workshops/taller-1.png"
                       alt="Workshop 1"
                       width={500}
                       height={500}

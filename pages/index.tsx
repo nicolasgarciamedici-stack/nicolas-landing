@@ -122,7 +122,7 @@ export default function Web() {
 
         {/* <Image src="/images/hero-2.png" alt="Next.js Enterprise Boilerplate" width={1920} height={1080} /> */}
         <div className="mx-auto grid px-4 py-8 text-center lg:py-16">
-          <div className="mx-auto">
+          <div>
             <h1 className="relative mb-10 font-times text-4xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-white md:text-5xl xl:text-5xl">
               Biografía
               <span className="absolute bottom-0 left-0 h-1 w-full">
@@ -132,7 +132,7 @@ export default function Web() {
               </span>
             </h1>
 
-            <div className="mt-20 flex items-center">
+            <div className="mt-20 flex items-center justify-evenly">
               <div>
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
                   Nicolas García Médici es músico compositor, productor, multi-instrumentista, docente oriundo de la
@@ -153,13 +153,13 @@ export default function Web() {
               </div>
 
               <div className="ml-20">
-                <Image src="/images/bio/self.jpeg" alt="foto" width={500} height={500} className="rounded-lg" />
+                <Image src="/images/bio/guitar.png" alt="foto" width={200} height={200} className="rounded-lg" />
               </div>
             </div>
 
-            <div className="mt-20 flex items-center">
+            <div className="mt-20 flex items-center justify-evenly">
               <div className="mr-20">
-                <Image src="/images/bio/self-2.jpeg" alt="foto" width={500} height={500} className="rounded-lg" />
+                <Image src="/images/bio/recorder.png" alt="foto" width={300} height={300} className="rounded-lg" />
               </div>
 
               <div>

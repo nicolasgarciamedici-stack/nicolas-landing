@@ -122,7 +122,139 @@ const Music = () => {
             </span>
           </h1>
 
-          <section className="mt-12">
+          <section className="mt-16">
+            <div>
+              <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
+                LOTUS
+              </h2>
+
+              <div className="mx-auto flex w-4/5 items-center justify-center space-x-4">
+                <div className="w-1/3 flex-none">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="560"
+                    height="215"
+                    src="https://www.youtube.com/embed/zJzc5EWWmmQ?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 1"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+
+                <div className="w-1/3 flex-none">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="560"
+                    height="215"
+                    src="https://www.youtube.com/embed/hpcmye7jq7E?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 2"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+
+                <div className="w-1/3 flex-none">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="600"
+                    height="215"
+                    src="https://www.youtube.com/embed/gmhFLAeIyVs?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 3"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-20">
+              <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
+                Kai d&apos; Raiz
+              </h2>
+
+              <div className="mx-auto flex w-4/5 items-center justify-center space-x-4">
+                <div className="w-1/3 flex-none">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="560"
+                    height="215"
+                    src="https://www.youtube.com/embed/AzdHHKAlyew?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 1"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+
+                <div className="w-1/3 flex-none">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="560"
+                    height="215"
+                    src="https://www.youtube.com/embed/enb_pUGQ-x0?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 2"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+
+                <div className="w-1/3 flex-none">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="600"
+                    height="215"
+                    src="https://www.youtube.com/embed/FwsOLdnm3xs?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 3"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="mt-16">
+            <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
+              Discografía
+            </h2>
+
+            <div className="flex justify-center">
+              <div className="grid max-w-6xl grid-cols-2 gap-x-8 gap-y-24">
+                {Array.from({ length: 1 }).map((_, i) => (
+                  <div className="text-center" key={i}>
+                    <a
+                      href="https://open.spotify.com/album/1dLeYFmkFeigEPzfWYt66J"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src="https://i.scdn.co/image/ab67616d00001e027fd28f858df306e0da14e136"
+                        loader={({ src }) => src}
+                        alt="Disco 1"
+                        className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
+                        width={500}
+                        height={500}
+                      />
+                      <p className="font-bold text-gray-900 dark:text-white">Lotus</p>
+                    </a>
+                  </div>
+                ))}
+
+                <div className="text-center">
+                  <a
+                    href="https://open.spotify.com/artist/4yH5AmComSWr7GZ3aAurgQ?si=kmKV5THATjusYmp-BAVicw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="https://i.scdn.co/image/ab6761610000517474c52346520cc8ec74a3dfbb"
+                      loader={({ src }) => src}
+                      alt="Disco 1"
+                      className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
+                      width={500}
+                      height={500}
+                    />
+                    <p className="font-bold text-gray-900 dark:text-white">Kai d&apos; Raiz</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="mt-16">
             <h2 className="mb-8 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
               Redes Sociales
             </h2>
@@ -197,130 +329,6 @@ const Music = () => {
                 >
                   <span className="subscribe-label">Suscribirse</span>
                 </a>
-              </div>
-
-              <h2 className="mb-8 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
-                LUTOS
-              </h2>
-              <div className="flex w-4/5 items-center justify-center space-x-4">
-                <div className="w-1/3 flex-none">
-                  <iframe
-                    className="w-full rounded-md"
-                    width="560"
-                    height="215"
-                    src="https://www.youtube.com/embed/zJzc5EWWmmQ?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
-                    title="Video 1"
-                    allow="autoplay; encrypted-media"
-                  ></iframe>
-                </div>
-
-                <div className="w-1/3 flex-none">
-                  <iframe
-                    className="w-full rounded-md"
-                    width="560"
-                    height="215"
-                    src="https://www.youtube.com/embed/hpcmye7jq7E?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
-                    title="Video 2"
-                    allow="autoplay; encrypted-media"
-                  ></iframe>
-                </div>
-
-                <div className="w-1/3 flex-none">
-                  <iframe
-                    className="w-full rounded-md"
-                    width="600"
-                    height="215"
-                    src="https://www.youtube.com/embed/gmhFLAeIyVs?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
-                    title="Video 3"
-                    allow="autoplay; encrypted-media"
-                  ></iframe>
-                </div>
-              </div>
-
-              <h2 className="mb-8 mt-20 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
-                Kai d&apos; Raiz
-              </h2>
-              <div className="flex w-4/5 items-center justify-center space-x-4">
-                <div className="w-1/3 flex-none">
-                  <iframe
-                    className="w-full rounded-md"
-                    width="560"
-                    height="215"
-                    src="https://www.youtube.com/embed/seTj2582g1s?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
-                    title="Video 1"
-                    allow="autoplay; encrypted-media"
-                  ></iframe>
-                </div>
-
-                <div className="w-1/3 flex-none">
-                  <iframe
-                    className="w-full rounded-md"
-                    width="560"
-                    height="215"
-                    src="https://www.youtube.com/embed/Ylaz19Rcz_s?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
-                    title="Video 2"
-                    allow="autoplay; encrypted-media"
-                  ></iframe>
-                </div>
-
-                <div className="w-1/3 flex-none">
-                  <iframe
-                    className="w-full rounded-md"
-                    width="600"
-                    height="215"
-                    src="https://www.youtube.com/embed/FXEwdjTAMmQ?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
-                    title="Video 3"
-                    allow="autoplay; encrypted-media"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className="mt-16">
-            <h2 className="mb-8 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
-              Discografía
-            </h2>
-
-            <div className="flex justify-center">
-              <div className="grid max-w-6xl grid-cols-2 gap-x-8 gap-y-24">
-                {Array.from({ length: 1 }).map((_, i) => (
-                  <div className="text-center" key={i}>
-                    <a
-                      href="https://open.spotify.com/album/1dLeYFmkFeigEPzfWYt66J"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="https://i.scdn.co/image/ab67616d00001e027fd28f858df306e0da14e136"
-                        loader={({ src }) => src}
-                        alt="Disco 1"
-                        className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
-                        width={500}
-                        height={500}
-                      />
-                      <p className="font-bold text-gray-900 dark:text-white">Lotus</p>
-                    </a>
-                  </div>
-                ))}
-
-                <div className="text-center">
-                  <a
-                    href="https://open.spotify.com/artist/4yH5AmComSWr7GZ3aAurgQ?si=kmKV5THATjusYmp-BAVicw"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Image
-                      src="https://i.scdn.co/image/ab6761610000517474c52346520cc8ec74a3dfbb"
-                      loader={({ src }) => src}
-                      alt="Disco 1"
-                      className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
-                      width={500}
-                      height={500}
-                    />
-                    <p className="font-bold text-gray-900 dark:text-white">Kai d&apos; Raiz</p>
-                  </a>
-                </div>
               </div>
             </div>
           </section>
