@@ -114,29 +114,37 @@ const Workshops = () => {
             <section className="mt-10 rounded-lg bg-gray-100 px-10 py-16">
               <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-1">
-                  <div className=" max-w-md border-b border-black bg-white p-8 shadow-md">
-                    <Image
-                      src="/images/workshops/taller-1.png"
-                      alt="Workshop 1"
-                      width={500}
-                      height={500}
-                      className="mb-6 rounded-lg bg-white"
-                    />
-                    {/* line to separate */}
-                    <div className="mb-6 border-b border-black"></div>
-                    <h3 className="mb-4 font-times text-2xl font-bold text-gray-900">Taller de Composición</h3>
-                    <p className="mb-4 text-gray-600">
-                      Este taller es un punto de partida que intenta sistematizar un modo de abordar la tarea creativa.
-                    </p>
-                    <a
-                      href="https://taller-nicolas.vercel.app/"
-                      className="font-semibold text-gray-900 underline transition-colors duration-300"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Ir al taller
-                    </a>
-                  </div>
+                  <a
+                    href="https://taller-nicolas.vercel.app/"
+                    className="transform transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className=" max-w-md border-b border-black bg-white p-8 shadow-md">
+                      <Image
+                        src="/images/workshops/taller-1.png"
+                        alt="Workshop 1"
+                        width={500}
+                        height={500}
+                        className="mb-6 rounded-lg bg-white"
+                      />
+                      {/* line to separate */}
+                      <div className="mb-6 border-b border-black"></div>
+                      <h3 className="mb-4 font-times text-2xl font-bold text-gray-900">Taller de Composición</h3>
+                      <p className="mb-4 text-gray-600">
+                        Este taller es un punto de partida que intenta sistematizar un modo de abordar la tarea
+                        creativa.
+                      </p>
+                      <a
+                        href="https://taller-nicolas.vercel.app/"
+                        className="font-semibold text-gray-900 underline transition-colors duration-300"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Ir al taller
+                      </a>
+                    </div>
+                  </a>
                   {/* <div className="rounded-lg bg-white p-8 shadow-md">
                     <img
                       src="https://luciaboffo.com/wp-content/uploads/2021/11/Tomas-Fares-the-Sindicalistas-Templanza.jpeg"
