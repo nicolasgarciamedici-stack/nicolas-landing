@@ -34,7 +34,7 @@ const Navbar = () => {
   }
   return (
     <div
-      className="fixed top-0 z-30 
+      className="sticky top-0 z-30 
         flex w-full items-center justify-between border-b border-black bg-white transition-all"
     >
       <div className="mx-5 flex h-16 w-full max-w-screen-xl items-center justify-between py-10 xl:mx-auto">
