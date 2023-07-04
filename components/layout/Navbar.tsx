@@ -34,14 +34,14 @@ const Navbar = () => {
     >
       <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between py-10 xl:mx-auto">
         <Link href="/" className="font-display flex items-center text-2xl">
-          <h1 className="font-times text-2xl font-extralight">Nicolas García Médici</h1>
+          <h1 className="font-times text-sm font-extralight md:text-2xl">Nicolas García Médici</h1>
         </Link>
-        <div className="flex items-center space-x-8">
+        <div className="flex items-center space-x-2 md:space-x-8">
           {links.map((link) => (
             <Link href={link.href} key={link.name} legacyBehavior>
               <a
                 className={clsx(
-                  "text-sm font-medium transition-all",
+                  "text-xs font-medium transition-all md:text-sm",
                   isActive(link.href) ? "text-black" : "text-gray-700 hover:text-black"
                 )}
               >
