@@ -128,8 +128,8 @@ const Music = () => {
                 LOTUS
               </h2>
 
-              <div className="mx-auto flex w-4/5 items-center justify-center space-x-4">
-                <div className="w-1/3 flex-none">
+              <div className="mx-auto flex w-4/5 flex-col items-center justify-center space-y-4 md:flex-row md:space-x-4 md:space-y-0">
+                <div className="flex-none md:w-1/3">
                   <iframe
                     className="w-full rounded-md"
                     width="560"
@@ -140,7 +140,7 @@ const Music = () => {
                   ></iframe>
                 </div>
 
-                <div className="w-1/3 flex-none">
+                <div className="flex-none md:w-1/3">
                   <iframe
                     className="w-full rounded-md"
                     width="560"
@@ -151,7 +151,7 @@ const Music = () => {
                   ></iframe>
                 </div>
 
-                <div className="w-1/3 flex-none">
+                <div className="flex-none md:w-1/3">
                   <iframe
                     className="w-full rounded-md"
                     width="600"
@@ -169,8 +169,8 @@ const Music = () => {
                 Kai d&apos; Raiz
               </h2>
 
-              <div className="mx-auto flex w-4/5 items-center justify-center space-x-4">
-                <div className="w-1/3 flex-none">
+              <div className="mx-auto flex w-4/5 flex-col items-center justify-center space-y-4 md:flex-row md:space-x-4 md:space-y-0">
+                <div className="flex-none md:w-1/3">
                   <iframe
                     className="w-full rounded-md"
                     width="560"
@@ -181,7 +181,7 @@ const Music = () => {
                   ></iframe>
                 </div>
 
-                <div className="w-1/3 flex-none">
+                <div className="flex-none md:w-1/3">
                   <iframe
                     className="w-full rounded-md"
                     width="560"
@@ -192,7 +192,7 @@ const Music = () => {
                   ></iframe>
                 </div>
 
-                <div className="w-1/3 flex-none">
+                <div className="flex-none md:w-1/3">
                   <iframe
                     className="w-full rounded-md"
                     width="600"
