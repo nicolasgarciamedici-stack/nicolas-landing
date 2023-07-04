@@ -1,7 +1,9 @@
-import Link from "next/link"
-import React, { useState } from "react"
-import { useRouter } from "next/router"
+import { FaBars, FaTimes } from "react-icons/fa"
 import clsx from "clsx"
+import Link from "next/link"
+import { useRouter } from "next/router"
+import React, { useState } from "react"
+import MobileNav from "./MobileNav"
 
 const links = [
   {
@@ -25,18 +27,21 @@ const links = [
 const Navbar = () => {
   const router = useRouter()
   const isActive = (href: string) => router.pathname === href
+  const [isOpen, setIsOpen] = useState(false)
 
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen)
+  }
   return (
     <div
       className="fixed top-0 z-30 
-        w-full border-b border-black bg-white
-       backdrop-blur-xl transition-all"
+        flex w-full items-center justify-between border-b border-black bg-white transition-all"
     >
-      <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between py-10 xl:mx-auto">
+      <div className="mx-5 flex h-16 w-full max-w-screen-xl items-center justify-between py-10 xl:mx-auto">
         <Link href="/" className="font-display flex items-center text-2xl">
-          <h1 className="font-times text-sm font-extralight md:text-2xl">Nicolas García Médici</h1>
+          <h1 className="font-times text-[1rem] font-extralight md:text-2xl">Nicolas García Médici</h1>
         </Link>
-        <div className="flex items-center space-x-2 md:space-x-8">
+        <div className="hidden items-center space-x-2 sm:flex md:space-x-8">
           {links.map((link) => (
             <Link href={link.href} key={link.name} legacyBehavior>
               <a
@@ -51,6 +56,7 @@ const Navbar = () => {
           ))}
         </div>
       </div>
+      <MobileNav />
     </div>
   )
 }
