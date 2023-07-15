@@ -4,6 +4,7 @@ import { SlSocialInstagram, SlSocialSpotify } from "react-icons/sl"
 import Carousel from "react-multi-carousel"
 
 import Layout from "components/layout/Layout"
+import discography from "lib/constants/discography"
 
 const Music = () => {
   return (
@@ -211,50 +212,35 @@ const Music = () => {
               Discografía
             </h2>
 
-            <div className="flex justify-center">
-              <div className="grid max-w-6xl grid-cols-2 gap-x-8 gap-y-24">
-                {Array.from({ length: 1 }).map((_, i) => (
-                  <div className="text-center" key={i}>
-                    <a
-                      href="https://open.spotify.com/album/1dLeYFmkFeigEPzfWYt66J"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src="https://i.scdn.co/image/ab67616d00001e027fd28f858df306e0da14e136"
-                        loader={({ src }) => src}
-                        alt="Disco 1"
-                        className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
-                        width={500}
-                        height={500}
-                      />
-                      <p className="font-bold text-gray-900 dark:text-white">Lotus</p>
-                    </a>
+            {discography.map((disc, i) => (
+              <div key={i} className="mb-20">
+                <h3 className="mb-10 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-2xl xl:text-2xl">
+                  {disc.name}
+                </h3>
+                <div className="flex justify-center">
+                  <div className="flex max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-16">
+                    {disc.disc.map((d, i) => (
+                      <div className="text-center" key={i}>
+                        <a href={d.link} target="_blank" rel="noopener noreferrer">
+                          <Image
+                            src={d.image}
+                            loader={({ src }) => src}
+                            alt={d.name}
+                            className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
+                            width={500}
+                            height={500}
+                          />
+                        </a>
+                        <p className="font-bold text-gray-900 dark:text-white">{d.name}</p>
+                      </div>
+                    ))}
                   </div>
-                ))}
-
-                <div className="text-center">
-                  <a
-                    href="https://open.spotify.com/artist/4yH5AmComSWr7GZ3aAurgQ?si=kmKV5THATjusYmp-BAVicw"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Image
-                      src="https://i.scdn.co/image/ab6761610000517474c52346520cc8ec74a3dfbb"
-                      loader={({ src }) => src}
-                      alt="Disco 1"
-                      className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
-                      width={500}
-                      height={500}
-                    />
-                    <p className="font-bold text-gray-900 dark:text-white">Kai d&apos; Raiz</p>
-                  </a>
                 </div>
               </div>
-            </div>
+            ))}
           </section>
 
-          <section className="mt-16">
+          <section>
             <h2 className="mb-8 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
               Redes Sociales
             </h2>
