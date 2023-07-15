@@ -114,7 +114,7 @@ const Music = () => {
         </Carousel>
 
         <div className="mx-auto grid w-full px-4 py-8 text-center lg:py-16">
-          <h1 className="relative mb-10 font-times text-4xl font-bold text-gray-800">
+          <h1 className="relative mb-10 font-times text-4xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-white md:text-5xl xl:text-5xl">
             Música
             <span className="absolute bottom-0 left-0 h-1 w-full">
               {Array.from({ length: 5 }).map((_, i) => (
