@@ -214,7 +214,7 @@ const Music = () => {
 
             {discography.map((disc, i) => (
               <div key={i} className="mb-20">
-                <h3 className="mb-10 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-2xl xl:text-2xl">
+                <h3 className="mb-10 font-times text-xl font-light leading-none tracking-tight dark:text-white md:text-2xl xl:text-2xl">
                   {disc.name}
                 </h3>
                 <div className="flex justify-center">
