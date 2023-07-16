@@ -131,7 +131,7 @@ const Workshops = () => {
                         creativa.
                       </p>
                       <a
-                        href="https://taller-nicolas.vercel.app/"
+                        href="https://taller.nicolasgarciamedici.com"
                         className="font-semibold text-gray-900 underline transition-colors duration-300"
                         target="_blank"
                         rel="noreferrer"
