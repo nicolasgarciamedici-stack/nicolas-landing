@@ -10,7 +10,7 @@ const discography = [
     ],
   },
   {
-    name: "Kai d&apos; Raiz",
+    name: "Kai d' Raiz",
     disc: [
       {
         name: "Kai d' Raiz",
