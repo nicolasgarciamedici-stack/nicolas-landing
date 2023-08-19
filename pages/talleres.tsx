@@ -115,13 +115,13 @@ const Workshops = () => {
             <section className="mt-10 rounded-lg bg-gray-100 px-10 py-16">
               <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-1">
-                  <Link href="https://taller-nicolas.vercel.app/" target="_blank" rel="noreferrer" legacyBehavior>
+                  <Link href="https://taller.nicolasgarciamedici.com" target="_blank" rel="noreferrer" legacyBehavior>
                     <div className="max-w-md transform cursor-pointer border-b border-black bg-white p-8 shadow-md transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl">
                       <video
                         className="w-full cursor-default"
                         controls
                         src="/videos/presentacion.mp4"
-                        // onClick={(e) => e.preventDefault()}
+                        onClick={(e) => e.preventDefault()}
                       />
                       {/* line to separate */}
                       <div className="mb-6 border-b border-black"></div>
