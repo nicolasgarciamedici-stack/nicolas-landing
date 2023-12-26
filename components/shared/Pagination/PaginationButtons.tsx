@@ -1,4 +1,4 @@
-const PaginationButtons = ({ page, totalPages, handlePageChange }) => {
+const PaginationButtons = ({ page, totalPages, handlePageChange }: any) => {
   return (
     <div className="flex flex-col items-center">
       <span className="text-sm text-gray-700 dark:text-gray-400">
