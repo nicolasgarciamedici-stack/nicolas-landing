@@ -4,6 +4,15 @@ import CommentForm from "./CommentForm"
 import RatingComment from "./RatingComment"
 import RatingCount from "./RatingCount"
 
+interface Comment {
+  _id: string
+  comment: string
+  name: string
+  lastName: string
+  rating: number
+  created_at: string
+}
+
 const Comments = () => {
   const [pageSize, setPageSize] = useState(4)
   const [lastId, setLastId] = useState(null)
@@ -42,7 +51,7 @@ const Comments = () => {
                 <p className="text-gray-400 dark:text-gray-400">No hay comentarios aún</p>
               </div>
             ) : (
-              data?.map((comment, index) => <RatingComment comment={comment} key={index} />)
+              data?.map((comment: Comment, index: number) => <RatingComment comment={comment} key={index} />)
             )}
           </section>
         </div>

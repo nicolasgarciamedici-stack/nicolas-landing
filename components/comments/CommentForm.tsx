@@ -14,7 +14,7 @@ const CommentForm = () => {
     formState: { errors, isSubmitting },
   } = useForm()
 
-  const onSubmit = (data) => {
+  const onSubmit = (data: any) => {
     toast.promise(
       client.create({
         _type: "comentarios",
@@ -82,7 +82,7 @@ const CommentForm = () => {
         </label>
         <textarea
           id="comment"
-          rows="6"
+          rows={6}
           className="w-full border-0 px-0 text-sm text-gray-900 focus:outline-none focus:ring-0 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
           placeholder="Escribe tu comentario..."
           required
