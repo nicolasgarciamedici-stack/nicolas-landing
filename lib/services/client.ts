@@ -12,7 +12,7 @@ export const client = createClient({
 
 // export const urlFor = (source: string) => builder.image(source);
 
-export const createUserInSanity = async (email) => {
+export const createUserInSanity = async (email: string) => {
   try {
     await client.create({
       _type: "usuarios",
@@ -24,7 +24,7 @@ export const createUserInSanity = async (email) => {
   }
 }
 
-export const checkUserInSanity = async (email) => {
+export const checkUserInSanity = async (email: string) => {
   try {
     const query = `*[email == "${email}"]`
     const [user] = await client.fetch(query)
@@ -34,7 +34,7 @@ export const checkUserInSanity = async (email) => {
     }
 
     throw new Error("Usuario o contraseña incorrectos")
-  } catch (error) {
+  } catch (error: any) {
     throw new Error(error.message)
   }
 }

@@ -1,6 +1,6 @@
 import { formatDistanceToNow } from "date-fns"
 
-const getTimeAgo = (date) => {
+const getTimeAgo = (date: any) => {
   // Calcula la diferencia de tiempo en palabras
   const timeAgo = formatDistanceToNow(new Date(date), {
     addSuffix: true,
