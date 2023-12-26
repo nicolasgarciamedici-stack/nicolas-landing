@@ -1,8 +1,8 @@
 import useSWR from "swr"
 import { client } from "lib/services/client"
 
-export const useSanitySWR = (query, params?) => {
-  const fetcher = (url) => {
+export const useSanitySWR = (query: any, params?: any) => {
+  const fetcher = (url: any) => {
     if (params) {
       return client.fetch(url, params)
     }
