@@ -1,8 +1,9 @@
+import { useState } from "react"
 import getCapitalize from "lib/utils/getCapitlize"
 import getTimeAgo from "lib/utils/getTimeAgo"
-import { useState } from "react"
+import { Comment } from "./Comments"
 
-const RatingComment = ({ comment }) => {
+const RatingComment = ({ comment }: { comment: Comment }) => {
   const [showFullComment, setShowFullComment] = useState(false)
 
   const maxLength = 200
@@ -24,9 +25,7 @@ const RatingComment = ({ comment }) => {
         <div className="text-sm font-medium dark:text-white">
           <p>
             {getCapitalize(comment.name)} {getCapitalize(comment.lastName)}
-            <time datetime="2014-08-16 19:00" className="block text-xs text-gray-500 dark:text-gray-400">
-              {getTimeAgo(comment._createdAt)}
-            </time>
+            <time className="block text-xs text-gray-500 dark:text-gray-400">{getTimeAgo(comment._createdAt)}</time>
           </p>
         </div>
       </div>

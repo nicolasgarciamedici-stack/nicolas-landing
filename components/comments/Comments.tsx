@@ -4,13 +4,13 @@ import CommentForm from "./CommentForm"
 import RatingComment from "./RatingComment"
 import RatingCount from "./RatingCount"
 
-interface Comment {
+export interface Comment {
   _id: string
   comment: string
   name: string
   lastName: string
   rating: number
-  created_at: string
+  _createdAt: string
 }
 
 const Comments = () => {
