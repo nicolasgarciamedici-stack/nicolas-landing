@@ -7,7 +7,7 @@ import MobileNav from "./MobileNav"
 
 const links = [
   {
-    name: "INICIO",
+    name: "BIO",
     href: "/",
   },
   {

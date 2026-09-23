@@ -123,8 +123,68 @@ const Music = () => {
             </span>
           </h1>
 
-          <section className="mt-16">
-            <div>
+          <section className="mt-16">                        
+            <div className="mt-20">
+              <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
+                Kai d&apos; Raiz
+              </h2>
+
+              <div className="mx-auto flex w-full max-w-5xl flex-wrap items-center justify-center gap-4">
+                <div className="w-full flex-shrink-0 md:w-80">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="560"
+                    height="215"
+                    src="https://www.youtube.com/embed/AzdHHKAlyew?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 1"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+
+                <div className="w-full flex-shrink-0 md:w-80">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="600"
+                    height="215"
+                    src="https://www.youtube.com/embed/tDxq07wMXAc?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 4"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+                <div className="w-full flex-shrink-0 md:w-80">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="600"
+                    height="215"
+                    src="https://www.youtube.com/embed/n2-MO_GKmfY?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 5"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+                <div className="w-full flex-shrink-0 md:w-80">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="560"
+                    height="215"
+                    src="https://www.youtube.com/embed/enb_pUGQ-x0?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 2"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>
+                <div className="w-full flex-shrink-0 md:w-80">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="600"
+                    height="215"
+                    src="https://www.youtube.com/embed/FwsOLdnm3xs?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
+                    title="Video 3"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                </div>                                
+              </div>
+            </div>
+            
+            <div className="mt-20">
               <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
                 LOTUS
               </h2>
@@ -163,48 +223,8 @@ const Music = () => {
                   ></iframe>
                 </div>
               </div>
-            </div>
-
-            <div className="mt-20">
-              <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
-                Kai d&apos; Raiz
-              </h2>
-
-              <div className="mx-auto flex w-4/5 flex-col items-center justify-center space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-                <div className="flex-none md:w-1/3">
-                  <iframe
-                    className="w-full rounded-md"
-                    width="560"
-                    height="215"
-                    src="https://www.youtube.com/embed/AzdHHKAlyew?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
-                    title="Video 1"
-                    allow="autoplay; encrypted-media"
-                  ></iframe>
-                </div>
-
-                <div className="flex-none md:w-1/3">
-                  <iframe
-                    className="w-full rounded-md"
-                    width="560"
-                    height="215"
-                    src="https://www.youtube.com/embed/enb_pUGQ-x0?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
-                    title="Video 2"
-                    allow="autoplay; encrypted-media"
-                  ></iframe>
-                </div>
-
-                <div className="flex-none md:w-1/3">
-                  <iframe
-                    className="w-full rounded-md"
-                    width="600"
-                    height="215"
-                    src="https://www.youtube.com/embed/FwsOLdnm3xs?controls=1&rel=0&playsinline=0&modestbranding=0&autoplay=0&enablejsapi=1&origin=https%3A%2F%2Fluciaboffo.com&widgetid=1"
-                    title="Video 3"
-                    allow="autoplay; encrypted-media"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
+            </div>            
+            
           </section>
 
           <section className="mt-16">
@@ -218,7 +238,7 @@ const Music = () => {
                   {disc.name}
                 </h3>
                 <div className="flex justify-center">
-                  <div className="flex max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-16">
+                  <div className="flex max-w-7xl flex-wrap items-center justify-center gap-x-8 gap-y-16">
                     {disc.disc.map((d, i) => (
                       <div className="text-center" key={i}>
                         <a href={d.link} target="_blank" rel="noopener noreferrer">
@@ -238,6 +258,49 @@ const Music = () => {
                 </div>
               </div>
             ))}
+          </section>
+
+          <section className="mt-16">
+            <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
+              Producciones
+            </h2>        
+            <div className="mb-20">
+                <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-center gap-8 md:flex-row md:items-start md:justify-center">
+                  <div className="text-center">
+                    <a href="https://open.spotify.com/intl-es/album/2o33TpjReP3HozXUrbjBvC?si=rH-RWLo7SLqsMfFnjyQxrw" target="_blank" rel="noopener noreferrer">
+                      <Image
+                        src="https://i.scdn.co/image/ab67616d00001e02c5f5fdab6694fea195f660cb"
+                        loader={({ src }) => src}
+                        alt="Desdoblar el bosque(Pt.2)"
+                        className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
+                        width={500}
+                        height={500}
+                      />
+                    </a>
+                    <p className="font-bold text-gray-900 dark:text-white">Desdoblar el bosque(Pt.2)</p>
+                  </div>
+
+                  <div className="w-full flex-shrink-0 text-center md:w-80">
+                    <iframe
+                      className="h-72 w-full rounded-md"
+                      width="560"
+                      height="288"
+                      src="https://www.youtube.com/embed/S045AF-oPk8?start=1314"
+                      title="Video 1"
+                      allow="autoplay; encrypted-media"
+                    ></iframe>
+                    <a
+                      href="https://www.youtube.com/watch?v=S045AF-oPk8&t=1314s"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <p className="mt-8 font-bold text-gray-900 hover:underline dark:text-white">
+                        Acostumbrarse no es rendirse
+                      </p>
+                    </a>
+                  </div>
+                </div>
+            </div>
           </section>
 
           <section>

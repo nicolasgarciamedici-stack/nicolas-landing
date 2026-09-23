@@ -20,7 +20,7 @@ const MobileNav = () => {
 
   const headerNavLinks = [
     {
-      title: "INICIO",
+      title: "BIO",
       href: "/",
     },
     {
