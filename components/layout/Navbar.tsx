@@ -15,7 +15,7 @@ const links = [
     href: "/musica",
   },
   {
-    name: "TALLERES",
+    name: "TALLER",
     href: "/talleres",
   },
   // {

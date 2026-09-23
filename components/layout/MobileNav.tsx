@@ -28,7 +28,7 @@ const MobileNav = () => {
       href: "/musica",
     },
     {
-      title: "TALLERES",
+      title: "TALLER",
       href: "/talleres",
     },
     // {

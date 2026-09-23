@@ -277,14 +277,31 @@ const Music = () => {
                         height={500}
                       />
                     </a>
-                    <p className="font-bold text-gray-900 dark:text-white">Desdoblar el bosque(Pt.2)</p>
+                    <p className="mx-auto w-72 font-bold text-gray-900 dark:text-white">Desdoblar el bosque(Pt.2)</p>
                   </div>
+                  <div className="text-center">
+                    <a href="https://open.spotify.com/intl-es/album/40c0Mu0OwRd7GVyjB8vQuL?si=Xo0YqeXATWmfkvCcNrs-Tg" target="_blank" rel="noopener noreferrer">
+                      <Image
+                        src="https://i.scdn.co/image/ab67616d00001e02195458bb9e320c8f1f36edb2"
+                        loader={({ src }) => src}
+                        alt="Mora Garcia Medici - Acostumbrarse no es rendirse"
+                        className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
+                        width={500}
+                        height={500}
+                      />
+                    </a>
+                    <p className="mx-auto w-72 font-bold text-gray-900 dark:text-white">
+                      Mora Garcia Medici - Acostumbrarse no es rendirse
+                    </p>
+                  </div>
+                </div>
 
+                <div className="mx-auto mt-8 flex w-full max-w-5xl flex-col items-center justify-center">
                   <div className="w-full flex-shrink-0 text-center md:w-80">
                     <iframe
-                      className="h-72 w-full rounded-md"
+                      className="w-full rounded-md"
                       width="560"
-                      height="288"
+                      height="215"
                       src="https://www.youtube.com/embed/S045AF-oPk8?start=1314"
                       title="Video 1"
                       allow="autoplay; encrypted-media"
@@ -295,11 +312,30 @@ const Music = () => {
                       rel="noopener noreferrer"
                     >
                       <p className="mt-8 font-bold text-gray-900 hover:underline dark:text-white">
-                        Acostumbrarse no es rendirse
+                        Mora Garcia Medici - Acostumbrarse no es rendirse
                       </p>
                     </a>
                   </div>
                 </div>
+            </div>
+          </section>
+
+          <section className="mt-16">
+            <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
+              Otros trabajos
+            </h2>
+            <div className="mb-20">
+              <div className="mx-auto max-w-2xl">
+                <iframe
+                  width="100%"
+                  height="450"
+                  scrolling="no"
+                  frameBorder="no"
+                  allow="autoplay; encrypted-media"
+                  src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F32119384&show_artwork=true"
+                  title="Nicolas Garcia Medici en SoundCloud"
+                ></iframe>
+              </div>
             </div>
           </section>
 
@@ -321,7 +357,7 @@ const Music = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/nicolasgarciamedici/"
+                href="https://www.instagram.com/tallerdecomposicion.ngm/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
