@@ -57,60 +57,60 @@ const Music = () => {
           swipeable
           autoPlay
         >
-          <Image
-            src="/images/music/carousel-1.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
-          <Image
-            src="/images/music/carousel-2.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
-          <Image
-            src="/images/music/carousel-3.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
-          <Image
-            src="/images/music/carousel-4.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
-          <Image
-            src="/images/music/carousel-5.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
-          <Image
-            src="/images/music/carousel-6.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/music/carousel-1.jpeg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/music/carousel-2.jpeg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/music/carousel-3.jpeg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/music/carousel-4.jpeg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/music/carousel-5.jpeg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/music/carousel-6.jpeg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
         </Carousel>
 
         <div className="mx-auto grid w-full px-4 py-8 text-center lg:py-16">

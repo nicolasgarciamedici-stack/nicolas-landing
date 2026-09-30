@@ -1,5 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
+import { SiLinktree } from "react-icons/si"
+import { SlSocialInstagram } from "react-icons/sl"
+
 import Layout from "components/layout/Layout"
 import Comments from "components/comments/Comments"
 
@@ -28,12 +31,15 @@ const Workshops = () => {
   return (
     <Layout>
       <section className="bg-gray-100 dark:bg-gray-900">
-        <Image
-          src="/images/workshops/taller-hero-2.png"
-          alt="Next.js Enterprise Boilerplate"
-          width={1920}
-          height={1080}
-        />
+        <div className="relative h-48 w-full bg-white sm:h-80 md:h-[28rem] lg:h-[32rem]">
+          <Image
+            src="/images/workshops/taller-hero-2.png"
+            alt="Next.js Enterprise Boilerplate"
+            layout="fill"
+            objectFit="contain"
+            objectPosition="center"
+          />
+        </div>
         <div className="mx-auto grid px-4 py-8 text-center lg:py-16">
           <div className="mx-auto">
             <h1 className="relative mb-10 font-times text-4xl font-extrabold leading-none tracking-tight text-gray-800 dark:text-white md:text-5xl xl:text-5xl">
@@ -121,6 +127,7 @@ const Workshops = () => {
                       <video
                         className="w-full cursor-default"
                         controls
+                        poster="/videos/presentacion-poster.jpg"
                         src="/videos/presentacion.mp4"
                         onClick={(e) => e.preventDefault()}
                       />
@@ -133,15 +140,45 @@ const Workshops = () => {
                       </p>
                       <a
                         href="https://taller.nicolasgarciamedici.com"
-                        className="font-semibold text-gray-900 underline transition-colors duration-300"
+                        className="group flex w-full items-center justify-between rounded-full bg-gray-900 py-2 pl-6 pr-2 font-bold text-white transition-colors duration-300 hover:bg-gray-800"
                         target="_blank"
                         rel="noreferrer"
                         onClick={(e) => e.stopPropagation()}
                       >
                         Ir al taller
+                        <span
+                          aria-hidden="true"
+                          className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-white text-gray-900 transition-transform duration-300 group-hover:translate-x-1"
+                        >
+                          →
+                        </span>
                       </a>
                     </div>
                   </Link>
+
+                  <div className="flex justify-center space-x-4 md:col-span-2 lg:col-span-1">
+                    <a
+                      href="https://www.instagram.com/tallerdecomposicion.ngm/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group"
+                    >
+                      <div className="transform rounded-full bg-gray-200 from-orange-500 via-pink-500 to-purple-800 p-2 transition-all duration-300 group-hover:scale-110 group-hover:bg-gradient-to-r dark:bg-gray-800">
+                        <SlSocialInstagram className="h-6 w-6 text-gray-500 group-hover:text-white" />
+                      </div>
+                    </a>
+
+                    <a
+                      href="https://linktr.ee/nicolasgarciamedici"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group"
+                    >
+                      <div className="transform rounded-full bg-gray-200 p-2 transition-transform duration-300 group-hover:scale-110 group-hover:bg-green-500 dark:bg-gray-800">
+                        <SiLinktree className="h-6 w-6 text-gray-500 group-hover:text-white" />
+                      </div>
+                    </a>
+                  </div>
 
                   {/* <div className="rounded-lg bg-white p-8 shadow-md">
                     <img
