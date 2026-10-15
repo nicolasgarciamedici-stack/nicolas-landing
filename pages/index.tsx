@@ -75,7 +75,7 @@ export default function Web() {
         >
           <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
             <Image
-              src="/images/bio/carousel-1.jpeg"
+              src="/images/bio/carousel-1.jpg"
               alt="Next.js Enterprise Boilerplate"
               layout="fill"
               objectFit="cover"
@@ -84,7 +84,7 @@ export default function Web() {
           </div>
           <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
             <Image
-              src="/images/bio/carousel-2.jpeg"
+              src="/images/bio/carousel-2.jpg"
               alt="Next.js Enterprise Boilerplate"
               layout="fill"
               objectFit="cover"
@@ -93,7 +93,7 @@ export default function Web() {
           </div>
           <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
             <Image
-              src="/images/bio/carousel-3.jpeg"
+              src="/images/bio/carousel-3.jpg"
               alt="Next.js Enterprise Boilerplate"
               layout="fill"
               objectFit="cover"
@@ -102,7 +102,7 @@ export default function Web() {
           </div>
           <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
             <Image
-              src="/images/bio/carousel-4.jpeg"
+              src="/images/bio/carousel-4.jpg"
               alt="Next.js Enterprise Boilerplate"
               layout="fill"
               objectFit="cover"
