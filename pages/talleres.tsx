@@ -158,7 +158,7 @@ const Workshops = () => {
 
                   <div className="flex justify-center space-x-4 md:col-span-2 lg:col-span-1">
                     <a
-                      href="https://www.instagram.com/tallerdecomposicion.ngm/"
+                      href="https://www.instagram.com/ngm.musica"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group"

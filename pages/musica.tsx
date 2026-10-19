@@ -357,7 +357,7 @@ const Music = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/tallerdecomposicion.ngm/"
+                href="https://www.instagram.com/ngm.musica"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -369,10 +369,7 @@ const Music = () => {
             </div>
           </section>
 
-          <section className="mt-10">
-            <h2 className="mb-8 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
-              Videos
-            </h2>
+          <section className="mt-10">      
             <div className="flex flex-col items-center">
               <p className="text-gray-500 dark:text-gray-400">Suscribite a mi canal de YouTube</p>
               <div className="mb-6 mt-8 flex h-12 w-12 animate-bounce items-center justify-center rounded-full bg-gray-200 p-2 dark:bg-gray-800">
