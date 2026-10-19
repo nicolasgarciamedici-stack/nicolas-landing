@@ -33,7 +33,7 @@ const Workshops = () => {
       <section className="bg-gray-100 dark:bg-gray-900">
         <div className="relative h-48 w-full bg-white sm:h-80 md:h-[28rem] lg:h-[32rem]">
           <Image
-            src="/images/workshops/taller-hero-2.png"
+            src="/images/workshops/carousel-1.jpg"
             alt="Next.js Enterprise Boilerplate"
             layout="fill"
             objectFit="contain"
