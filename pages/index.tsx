@@ -138,7 +138,7 @@ export default function Web() {
                   Nicolas García Médici es músico compositor, productor, multi-instrumentista y docente oriundo de la Ciudad de Buenos Aires, Argentina, donde inició sus estudios a temprana edad y se ha desarrollado profesionalmente.</p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Egresado del conservatorio superior de música "Manuel de Falla" (profesorado de artes - especialidad saxofón) profundizó sus estudios sobre el lenguaje y análisis musical con Maria del Carmen Aguilar.
+                  Egresado del conservatorio superior de música &ldquo;Manuel de Falla&rdquo; (profesorado de artes - especialidad saxofón) profundizó sus estudios sobre el lenguaje y análisis musical con Maria del Carmen Aguilar.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
