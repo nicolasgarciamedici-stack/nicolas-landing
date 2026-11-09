@@ -1,15 +1,5 @@
 const discography = [
   {
-    name: "Lotus",
-    disc: [
-      {
-        name: "Lotus",
-        image: "https://i.scdn.co/image/ab67616d00001e027fd28f858df306e0da14e136",
-        link: "https://open.spotify.com/album/1dLeYFmkFeigEPzfWYt66J",
-      },
-    ],
-  },
-  {
     name: "Kai d' Raiz",
     disc: [
       {
@@ -26,6 +16,21 @@ const discography = [
         name: "Yesca",
         image: "https://i.scdn.co/image/ab6761610000517474c52346520cc8ec74a3dfbb",
         link: "https://open.spotify.com/artist/4yH5AmComSWr7GZ3aAurgQ?si=kmKV5THATjusYmp-BAVicw",
+      },
+      {
+        name: "Yesca, Vol. 2",
+        image: "https://i.scdn.co/image/ab67616d00001e027aaeb07b9ddf1107e633ad9b",
+        link: "https://open.spotify.com/album/38toO1ayIz42U8hhZ1BX35?si=tW4-hhzvRzCLwfLTho_JdA",
+      },
+    ],
+  },
+  {
+    name: "Lotus",
+    disc: [
+      {
+        name: "Lotus",
+        image: "https://i.scdn.co/image/ab67616d00001e027fd28f858df306e0da14e136",
+        link: "https://open.spotify.com/album/1dLeYFmkFeigEPzfWYt66J",
       },
     ],
   },

@@ -7,7 +7,7 @@ import MobileNav from "./MobileNav"
 
 const links = [
   {
-    name: "INICIO",
+    name: "BIO",
     href: "/",
   },
   {
@@ -15,7 +15,7 @@ const links = [
     href: "/musica",
   },
   {
-    name: "TALLERES",
+    name: "TALLER",
     href: "/talleres",
   },
   // {

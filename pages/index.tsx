@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Image from "next/image"
 import Carousel from "react-multi-carousel"
 
@@ -26,6 +27,9 @@ export default function Web() {
 
   return (
     <Layout>
+      <Head>
+        <title>Nicolas García Médici</title>
+      </Head>
       <section className="z-10 bg-gray-100 dark:bg-gray-900">
         <Carousel
           additionalTransfrom={0}
@@ -73,51 +77,51 @@ export default function Web() {
           slidesToSlide={1}
           autoPlay
         >
-          <Image
-            src="/images/bio/carousel-1.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
-          <Image
-            src="/images/bio/carousel-2.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
-          <Image
-            src="/images/bio/carousel-3.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
-          <Image
-            src="/images/bio/carousel-4.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
-          <Image
-            src="/images/bio/carousel-5.jpeg"
-            alt="Next.js Enterprise Boilerplate"
-            width={1920}
-            height={1080}
-            layout="responsive"
-            objectFit="cover"
-            objectPosition="center"
-          />
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/bio/carousel-1.jpg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/bio/carousel-2.jpg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/bio/carousel-3.jpg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/bio/carousel-4.jpg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
+          <div className="relative h-48 sm:h-80 md:h-[28rem] lg:h-[32rem]">
+            <Image
+              src="/images/bio/carousel-5.jpeg"
+              alt="Next.js Enterprise Boilerplate"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+            />
+          </div>
         </Carousel>
 
         {/* <Image src="/images/hero-2.png" alt="Next.js Enterprise Boilerplate" width={1920} height={1080} /> */}
@@ -135,20 +139,20 @@ export default function Web() {
             <div className="mt-20 flex items-center justify-evenly">
               <div>
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Nicolas García Médici es músico compositor, productor, multi-instrumentista, docente oriundo de la
+                  Nicolas García Médici es músico compositor, productor, multi-instrumentista y docente oriundo de la
                   Ciudad de Buenos Aires, Argentina, donde inició sus estudios a temprana edad y se ha desarrollado
                   profesionalmente.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Egresado del conservatorio superior de música &quot;Manuel de Falla&quot; (profesorado de artes -
-                  especialidad saxofón) profundizó sus estudios sobre el lenguaje musical en el Curso de Lecto-escritura
-                  de Maria del Carmen Aguilar.
+                  Egresado del conservatorio superior de música &ldquo;Manuel de Falla&rdquo; (profesorado de artes -
+                  especialidad saxofón) profundizó sus estudios sobre el lenguaje y análisis musical con Maria del
+                  Carmen Aguilar.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Se formó con grandes músicos de la escena local tales como: Guillermo Kelin, Diego Schissi, Juan
-                  “Pollo” Raffo, Marcelo Katz, Nora Sarmoria, Luis Nacht y Rodrigo Dominguez.
+                  Se formó con grandes músicos como: Guillermo Kelin, Diego Schissi, Juan “Pollo” Raffo, Marcelo Katz,
+                  Roque de Pedro, Nora Sarmoria, etc.
                 </p>
               </div>
 
@@ -169,23 +173,27 @@ export default function Web() {
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Kai d` Raíz lleva 9 años de trayectoria, editó 3 trabajos discográficos y brindó conciertos y
+                  Kai d` Raíz lleva 11 años de trayectoria, editó 4 trabajos discográficos y brindó conciertos y
                   masterclasses en Uruguay, Chile y Argentina.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Lotus editó su primer trabajo discografico en 2022 y tiene 2 sesiones en vivo.
+                  Lotus cuenta con dos Live Sessions y un trabajo discográfico.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Es docente de Lenguaje Musical desde hace más de 8 años en el Proyecto de Orquestas infanto-juveniles
-                  de la Ciudad de Buenos Aires y lleva la misma cantidad de años dando clases de ensamble y composición
-                  en el Colegio de la Ciudad.{" "}
+                  Trabajó 11 años como docente de Lenguaje Musical y Saxofón en el Proyecto de Orquestas
+                  infanto-juveniles de la Ciudad de Buenos Aires y la misma cantidad de años dando clases de ensamble y
+                  composición en el Colegio de la Ciudad.{" "}
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Actualmente participa en la producción de discos de artistas relevantes de la escena local. MORA,
-                  OUANI, Solaz, Pablo Von Quintiero son algunos de esos exponentes.
+                  Hace 5 años desarrolla su propio Taller de Composición donde han pasado más de 30 personas.
+                </p>
+
+                <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
+                  Actualmente se encuentra radicado en Madrid (España) donde continúa desarrollando su carrera
+                  profesional como músico.
                 </p>
               </div>
             </div>

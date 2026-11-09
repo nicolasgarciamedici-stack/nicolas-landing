@@ -20,7 +20,7 @@ const MobileNav = () => {
 
   const headerNavLinks = [
     {
-      title: "INICIO",
+      title: "BIO",
       href: "/",
     },
     {
@@ -28,7 +28,7 @@ const MobileNav = () => {
       href: "/musica",
     },
     {
-      title: "TALLERES",
+      title: "TALLER",
       href: "/talleres",
     },
     // {
