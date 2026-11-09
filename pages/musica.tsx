@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Image from "next/image"
 import { AiOutlineArrowDown } from "react-icons/ai"
 import { SlSocialInstagram, SlSocialSpotify } from "react-icons/sl"
@@ -9,6 +10,9 @@ import discography from "lib/constants/discography"
 const Music = () => {
   return (
     <Layout>
+      <Head>
+        <title>Música | Nicolas García Médici</title>
+      </Head>
       <section className="bg-gray-100 dark:bg-gray-900">
         <Carousel
           additionalTransfrom={0}

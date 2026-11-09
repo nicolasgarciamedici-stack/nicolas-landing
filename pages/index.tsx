@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Image from "next/image"
 import Carousel from "react-multi-carousel"
 
@@ -26,6 +27,9 @@ export default function Web() {
 
   return (
     <Layout>
+      <Head>
+        <title>Nicolas García Médici</title>
+      </Head>
       <section className="z-10 bg-gray-100 dark:bg-gray-900">
         <Carousel
           additionalTransfrom={0}

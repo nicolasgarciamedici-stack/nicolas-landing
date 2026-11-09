@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import { SiLinktree } from "react-icons/si"
@@ -30,6 +31,9 @@ import Comments from "components/comments/Comments"
 const Workshops = () => {
   return (
     <Layout>
+      <Head>
+        <title>Taller | Nicolas García Médici</title>
+      </Head>
       <section className="bg-gray-100 dark:bg-gray-900">
         <div className="relative h-48 w-full bg-white sm:h-80 md:h-[28rem] lg:h-[32rem]">
           <Image
