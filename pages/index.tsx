@@ -135,14 +135,20 @@ export default function Web() {
             <div className="mt-20 flex items-center justify-evenly">
               <div>
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Nicolas García Médici es músico compositor, productor, multi-instrumentista y docente oriundo de la Ciudad de Buenos Aires, Argentina, donde inició sus estudios a temprana edad y se ha desarrollado profesionalmente.</p>
-
-                <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Egresado del conservatorio superior de música &ldquo;Manuel de Falla&rdquo; (profesorado de artes - especialidad saxofón) profundizó sus estudios sobre el lenguaje y análisis musical con Maria del Carmen Aguilar.
+                  Nicolas García Médici es músico compositor, productor, multi-instrumentista y docente oriundo de la
+                  Ciudad de Buenos Aires, Argentina, donde inició sus estudios a temprana edad y se ha desarrollado
+                  profesionalmente.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Se formó con grandes músicos como: Guillermo Kelin, Diego Schissi, Juan “Pollo” Raffo, Marcelo Katz, Roque de Pedro, Nora Sarmoria, etc.
+                  Egresado del conservatorio superior de música &ldquo;Manuel de Falla&rdquo; (profesorado de artes -
+                  especialidad saxofón) profundizó sus estudios sobre el lenguaje y análisis musical con Maria del
+                  Carmen Aguilar.
+                </p>
+
+                <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
+                  Se formó con grandes músicos como: Guillermo Kelin, Diego Schissi, Juan “Pollo” Raffo, Marcelo Katz,
+                  Roque de Pedro, Nora Sarmoria, etc.
                 </p>
               </div>
 
@@ -158,11 +164,13 @@ export default function Web() {
 
               <div>
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  La inquietud y vocación por desarrollar un lenguaje propio y original lo llevaron a liderar proyectos como Kai d` Raíz y Lotus.
+                  La inquietud y vocación por desarrollar un lenguaje propio y original lo llevaron a liderar proyectos
+                  como Kai d` Raíz y Lotus.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Kai d` Raíz lleva 11 años de trayectoria, editó 4 trabajos discográficos y brindó conciertos y masterclasses en Uruguay, Chile y Argentina.
+                  Kai d` Raíz lleva 11 años de trayectoria, editó 4 trabajos discográficos y brindó conciertos y
+                  masterclasses en Uruguay, Chile y Argentina.
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
@@ -170,15 +178,18 @@ export default function Web() {
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Trabajó 11 años como docente de Lenguaje Musical y Saxofón en el Proyecto de Orquestas infanto-juveniles de la Ciudad de Buenos Aires y  la misma cantidad de años dando clases de ensamble y composición en el Colegio de la Ciudad.{" "}
+                  Trabajó 11 años como docente de Lenguaje Musical y Saxofón en el Proyecto de Orquestas
+                  infanto-juveniles de la Ciudad de Buenos Aires y la misma cantidad de años dando clases de ensamble y
+                  composición en el Colegio de la Ciudad.{" "}
                 </p>
 
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
                   Hace 5 años desarrolla su propio Taller de Composición donde han pasado más de 30 personas.
                 </p>
-                
+
                 <p className="mb-6 max-w-2xl font-light text-gray-700 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-                  Actualmente se encuentra radicado en Madrid (España) donde continúa desarrollando su carrera profesional como músico.
+                  Actualmente se encuentra radicado en Madrid (España) donde continúa desarrollando su carrera
+                  profesional como músico.
                 </p>
               </div>
             </div>

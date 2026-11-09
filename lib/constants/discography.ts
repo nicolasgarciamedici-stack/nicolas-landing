@@ -33,7 +33,7 @@ const discography = [
         link: "https://open.spotify.com/album/1dLeYFmkFeigEPzfWYt66J",
       },
     ],
-  }, 
+  },
 ]
 
 export default discography

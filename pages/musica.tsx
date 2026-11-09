@@ -123,7 +123,7 @@ const Music = () => {
             </span>
           </h1>
 
-          <section className="mt-16">                        
+          <section className="mt-16">
             <div className="mt-20">
               <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
                 Kai d&apos; Raiz
@@ -180,10 +180,10 @@ const Music = () => {
                     title="Video 3"
                     allow="autoplay; encrypted-media"
                   ></iframe>
-                </div>                                
+                </div>
               </div>
             </div>
-            
+
             <div className="mt-20">
               <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
                 LOTUS
@@ -223,8 +223,7 @@ const Music = () => {
                   ></iframe>
                 </div>
               </div>
-            </div>            
-            
+            </div>
           </section>
 
           <section className="mt-16">
@@ -263,60 +262,68 @@ const Music = () => {
           <section className="mt-16">
             <h2 className="mb-12 font-times text-2xl font-light leading-none tracking-tight dark:text-white md:text-3xl xl:text-3xl">
               Producciones
-            </h2>        
+            </h2>
             <div className="mb-20">
-                <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-center gap-8 md:flex-row md:items-start md:justify-center">
-                  <div className="text-center">
-                    <a href="https://open.spotify.com/intl-es/album/2o33TpjReP3HozXUrbjBvC?si=rH-RWLo7SLqsMfFnjyQxrw" target="_blank" rel="noopener noreferrer">
-                      <Image
-                        src="https://i.scdn.co/image/ab67616d00001e02c5f5fdab6694fea195f660cb"
-                        loader={({ src }) => src}
-                        alt="Desdoblar el bosque(Pt.2)"
-                        className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
-                        width={500}
-                        height={500}
-                      />
-                    </a>
-                    <p className="mx-auto w-72 font-bold text-gray-900 dark:text-white">Desdoblar el bosque(Pt.2)</p>
-                  </div>
-                  <div className="text-center">
-                    <a href="https://open.spotify.com/intl-es/album/40c0Mu0OwRd7GVyjB8vQuL?si=Xo0YqeXATWmfkvCcNrs-Tg" target="_blank" rel="noopener noreferrer">
-                      <Image
-                        src="https://i.scdn.co/image/ab67616d00001e02195458bb9e320c8f1f36edb2"
-                        loader={({ src }) => src}
-                        alt="Mora Garcia Medici - Acostumbrarse no es rendirse"
-                        className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
-                        width={500}
-                        height={500}
-                      />
-                    </a>
-                    <p className="mx-auto w-72 font-bold text-gray-900 dark:text-white">
+              <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-center gap-8 md:flex-row md:items-start md:justify-center">
+                <div className="text-center">
+                  <a
+                    href="https://open.spotify.com/intl-es/album/2o33TpjReP3HozXUrbjBvC?si=rH-RWLo7SLqsMfFnjyQxrw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="https://i.scdn.co/image/ab67616d00001e02c5f5fdab6694fea195f660cb"
+                      loader={({ src }) => src}
+                      alt="Desdoblar el bosque(Pt.2)"
+                      className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
+                      width={500}
+                      height={500}
+                    />
+                  </a>
+                  <p className="mx-auto w-72 font-bold text-gray-900 dark:text-white">Desdoblar el bosque(Pt.2)</p>
+                </div>
+                <div className="text-center">
+                  <a
+                    href="https://open.spotify.com/intl-es/album/40c0Mu0OwRd7GVyjB8vQuL?si=Xo0YqeXATWmfkvCcNrs-Tg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="https://i.scdn.co/image/ab67616d00001e02195458bb9e320c8f1f36edb2"
+                      loader={({ src }) => src}
+                      alt="Mora Garcia Medici - Acostumbrarse no es rendirse"
+                      className="mb-8 w-72 rounded-lg transition-transform duration-300 hover:scale-105"
+                      width={500}
+                      height={500}
+                    />
+                  </a>
+                  <p className="mx-auto w-72 font-bold text-gray-900 dark:text-white">
+                    Mora Garcia Medici - Acostumbrarse no es rendirse
+                  </p>
+                </div>
+              </div>
+
+              <div className="mx-auto mt-8 flex w-full max-w-5xl flex-col items-center justify-center">
+                <div className="w-full flex-shrink-0 text-center md:w-80">
+                  <iframe
+                    className="w-full rounded-md"
+                    width="560"
+                    height="215"
+                    src="https://www.youtube.com/embed/S045AF-oPk8?start=1314"
+                    title="Video 1"
+                    allow="autoplay; encrypted-media"
+                  ></iframe>
+                  <a
+                    href="https://www.youtube.com/watch?v=S045AF-oPk8&t=1314s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className="mt-8 font-bold text-gray-900 hover:underline dark:text-white">
                       Mora Garcia Medici - Acostumbrarse no es rendirse
                     </p>
-                  </div>
+                  </a>
                 </div>
-
-                <div className="mx-auto mt-8 flex w-full max-w-5xl flex-col items-center justify-center">
-                  <div className="w-full flex-shrink-0 text-center md:w-80">
-                    <iframe
-                      className="w-full rounded-md"
-                      width="560"
-                      height="215"
-                      src="https://www.youtube.com/embed/S045AF-oPk8?start=1314"
-                      title="Video 1"
-                      allow="autoplay; encrypted-media"
-                    ></iframe>
-                    <a
-                      href="https://www.youtube.com/watch?v=S045AF-oPk8&t=1314s"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <p className="mt-8 font-bold text-gray-900 hover:underline dark:text-white">
-                        Mora Garcia Medici - Acostumbrarse no es rendirse
-                      </p>
-                    </a>
-                  </div>
-                </div>
+              </div>
             </div>
           </section>
 
@@ -369,7 +376,7 @@ const Music = () => {
             </div>
           </section>
 
-          <section className="mt-10">      
+          <section className="mt-10">
             <div className="flex flex-col items-center">
               <p className="text-gray-500 dark:text-gray-400">Suscribite a mi canal de YouTube</p>
               <div className="mb-6 mt-8 flex h-12 w-12 animate-bounce items-center justify-center rounded-full bg-gray-200 p-2 dark:bg-gray-800">
